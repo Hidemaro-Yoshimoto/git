@@ -1,0 +1,31 @@
+.entry {
+  height: 482px;
+  position: relative;
+  @include tab {
+    height: 501px;
+  }
+}
+
+.entry-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 123px;
+  width: 23%;
+  min-width: 200px;
+}
+
+.entry-copy {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.entry-btn {
+  @extend .fv-btn;
+
+}

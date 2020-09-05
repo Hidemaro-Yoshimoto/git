@@ -118,7 +118,7 @@ html {
 
 body {
   font-size: 12px;
-  line-height: 1.67;
+  line-height: 1,67;
 }
 
 .title {
@@ -137,6 +137,7 @@ body {
 .title--bold {
   font-weight: bold;
   margin-right: 0.5em;
+  margin-top: 50px;
 }
 .title:before, .title:after {
   display: inline-block;
@@ -144,10 +145,12 @@ body {
   border-top: 1px solid;
   width: 2em;
   margin-right: 1.7rem;
+  margin-top: 50px;
 }
 .title:after {
   margin-right: 0;
   margin-left: 1.7rem;
+  margin-top: 50px;
 }
 
 .inner {
@@ -157,8 +160,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   .inner {
-    padding: 50px 0;
     width: 90%;
+    padding: 50px 0;
   }
 }
 
@@ -327,6 +330,7 @@ nav ul {
   width: 100%;
 }
 .about-item__desc {
+  font-size: 1.2rem;
   margin-top: 35px;
   text-align: left;
 }
@@ -352,6 +356,7 @@ nav ul {
 @media screen and (max-width: 600px) {
   .news-wrap {
     flex-direction: column;
+    margin: 40px 20px 50px;
   }
 }
 
@@ -360,16 +365,7 @@ nav ul {
   background-color: #fff;
   box-shadow: 4px 4px 5px #00000029;
 }
-@media screen and (max-width: 600px) {
-  .news-item {
-    width: 100%;
-    margin-top: 30px;
-  }
-}
 
-.news__content {
-  padding: 20px;
-}
 .news__content__day {
   font-size: 1.1rem;
   font-weight: bold;
@@ -386,7 +382,7 @@ nav ul {
   height: 482px;
   position: relative;
 }
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 600px) {
   .entry {
     height: 501px;
   }
@@ -409,6 +405,10 @@ nav ul {
 .entry-copy {
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.entry-btn {
+  padding: 17px 66px;
 }
 
 footer {
